@@ -416,12 +416,6 @@ p, span {
     margin-bottom: 30px;
 }
 
-.testimonial-img img {
-    width: 80px;
-    height: 80px;
-    margin-left: 410px;
-}
-
 
 .testimonial-one {
     text-align: center;
@@ -468,6 +462,7 @@ p, span {
     color: var(--black);
     text-align: center;
 }
+
 
 /*footer-area*/
 .footer-area {
