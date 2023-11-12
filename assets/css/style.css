@@ -163,7 +163,7 @@ p, span {
     background: transparent;
     width: 120px;
     height: 40px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     border: 1px solid var(--white);
     color: var(--white);
