@@ -171,9 +171,18 @@ p, span {
     margin-left: 18px;
 }
 
+
 .banner-btn button:hover {
     background: var(--blue);
     border: none;
+}
+@media screen and (max-width: 480px){
+    .banner-btn button {
+        width: 160px;
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+
 }
 
 /*about-area*/
