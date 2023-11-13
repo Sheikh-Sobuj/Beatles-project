@@ -193,7 +193,7 @@ p, span {
 }
 
 .about-details p {
-    font-size: 16px;
+    font-size: 24px;
     color: var(--black);
     margin: 40px 0px;
 }
