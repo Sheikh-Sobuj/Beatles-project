@@ -193,7 +193,7 @@ p, span {
 }
 
 .about-details p {
-    font-size: 24px;
+    font-size: 20px;
     color: var(--black);
     margin: 40px 0px;
 }
@@ -222,30 +222,35 @@ p, span {
 
 
 .service-img {
-    position: relative;
-    width: 70px;
-    height: 70px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
     background: var(--graylight);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 4px solid var(--white);
-    margin: -35px auto;
+    border: 8px double var(--white);
+    margin: -35px;
+    left: 50%;
+    top: -16px;
     cursor: pointer;
 }
 
-.service-img:hover {
+.service-document:hover .service-img  {
     background: var(--skyblue);
+    transition: 0.5s;
 }
 
 .service-details {
     background: var(--graylight);
     height: auto;
     text-align: center;
-
 }
-
+.service-document:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s;
+}
 .service-details h2 {
     padding-top: 50px;
     font-size: 24px;
@@ -253,7 +258,7 @@ p, span {
 
 .service-details p {
     padding: 10px 20px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 /* Responsive styles */
@@ -398,6 +403,7 @@ p, span {
 .team-img:hover .team-social {
     background: var(--gray);
     transform: translateY(0);
+    transition: 1s;
 }
 
 .team-social i {
