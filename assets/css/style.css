@@ -86,23 +86,22 @@ p, span {
 }
 
 /*nav-bar*/
+
 .nav-area {
     background: var(--white);
-    height: auto;
-    padding: 2px 40px;
+    padding:0 40px;
 }
-
 .logo {
     cursor: pointer;
-    width: 118px;
-    height: 60px;
 }
-
 .nav-link {
     color: var(--black);
-    font-weight: 500;
-    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
 }
+
 
 .nav-link:hover {
     color: var(--skyblue);
@@ -114,7 +113,6 @@ p, span {
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-    margin-top: 30px;
     padding: 100px;
 }
 
@@ -127,8 +125,8 @@ p, span {
 }
 
 .banner-details h2 {
-    font-size: 36px;
-    font-weight: 300;
+    font-size: 54px;
+    font-weight: 700;
 }
 
 .banner-details h1 {
@@ -137,8 +135,8 @@ p, span {
 }
 
 .banner-details p {
-    margin-top: 50px;
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 1.7;
 }
 
 .banner-btn {
@@ -149,7 +147,8 @@ p, span {
     background: transparent;
     width: 120px;
     height: 40px;
-    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
     font-weight: 400;
     border: 1px solid var(--white);
     color: var(--white);
@@ -160,6 +159,7 @@ p, span {
 .banner-btn button:hover {
     background: var(--blue);
     border: none;
+    padding: 5px 20px;
 }
 @media screen and (max-width: 480px){
     .banner-btn button {
@@ -179,23 +179,19 @@ p, span {
     margin-top: -55px;
 }
 
-.about-title {
-    margin-bottom: 40px;
+.headline h3 {
+    font-size: 32px;
+    color: var(--gray);
+    font-weight: 800;
 }
-
-.about-area h1 {
-    margin-bottom: 40px;
-}
-
 .about-img img {
     width: 100%;
-    height: auto;
 }
 
 .about-details p {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 1.8;
     color: var(--black);
-    margin: 40px 0px;
 }
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -248,17 +244,17 @@ p, span {
     text-align: center;
 }
 .service-document:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     transition: 0.5s;
 }
-.service-details h2 {
+.service-details h4 {
     padding-top: 50px;
     font-size: 24px;
 }
 
 .service-details p {
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Responsive styles */
@@ -356,11 +352,7 @@ p, span {
 }
 
 .team-details h2 {
-    font-size: 16px;
-}
-
-.team-details h2:hover {
-    color: var(--skyblue);
+    font-size: 18px;
 }
 
 .team-details p {
@@ -372,7 +364,10 @@ p, span {
     position: relative;
     overflow: hidden;
 }
-
+.team-img:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    transition: .7s;
+}
 .team-img img {
     width: 100%;
     height: auto;
@@ -381,6 +376,9 @@ p, span {
 
 .team-img:hover img {
     transform: scale(1.1);
+}
+.team-img:hover ~ .team-details h2{
+    color: var(--skyblue);
 }
 
 .team-social {
@@ -497,8 +495,9 @@ p, span {
 }
 
 .testimonial-desc p {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--black);
+    font-weight: 400;
     text-align: center;
 }
 
@@ -514,7 +513,7 @@ p, span {
 }
 
 .footer-desc p {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 30px;
     color: var(--white);
 }
@@ -550,7 +549,7 @@ p, span {
 
 .contact-details {
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer-title {
@@ -558,7 +557,7 @@ p, span {
 }
 
 .link-item span a {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--white);
     margin-bottom: 50px;
     text-decoration: none;
