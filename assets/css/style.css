@@ -161,11 +161,41 @@ p, span {
     border: none;
     padding: 5px 20px;
 }
+@media screen and (max-width: 991px) {
+    .banner-area{
+        padding: 10px;
+    }
+    .banner-details p{
+        padding-left: 20%;
+    }
+
+}
 @media screen and (max-width: 480px){
     .banner-btn button {
         width: 160px;
         font-size: 13px;
         padding: 10px 0px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .banner-details h2 {
+        font-size: 32px;
+    }
+    .banner-details h1 {
+        font-size: 24px;
+    }
+    .banner-details p{
+        padding-left: 5%;
+        font-size: 16px;
+    }
+    .about-area,
+    .service-area,
+    .portfolio-area,
+    .team-area,
+    .testimonial-area,
+    .footer-area{
+        padding: 0 40px;
     }
 
 }
@@ -206,6 +236,7 @@ p, span {
         font-size: 16px;
         margin: 20px 0px;
     }
+
 }
 /*service-area*/
 .service-area {
